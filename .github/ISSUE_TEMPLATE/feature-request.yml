@@ -1,0 +1,38 @@
+name: Suggest an improvement
+description: Share an idea for an existing utility or propose a tiny new fix.
+title: "[Idea]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the idea. The best Mira utilities solve one irritating problem clearly and reversibly.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of idea is this?
+      options:
+        - Improve Mira Tray Keeper
+        - Propose a new utility
+        - Improve the download or instructions
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What annoying problem should Mira solve?
+      description: Describe the problem before describing the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would the ideal fix feel like?
+      description: Plain language is perfect. No technical knowledge required.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Screenshots, examples, and links are welcome. Please remove private information first.

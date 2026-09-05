@@ -1,0 +1,68 @@
+name: Report a bug
+description: Tell Mira what broke so we can make it behave.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Mira Utilities. Please do not include passwords, account details, API keys, or other private information.
+  - type: dropdown
+    id: utility
+    attributes:
+      label: Which utility has the problem?
+      options:
+        - Mira Tray Keeper
+        - Another Mira utility
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Utility version
+      description: For example, 1.0.1. If you are unsure, write "not sure."
+      placeholder: 1.0.1
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Open Settings → System → About if you need to check.
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      description: Tell us what you saw and what you expected instead.
+      placeholder: I clicked… then Windows… I expected…
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen again?
+      description: Short numbered steps are perfect. "It happens randomly" is also useful.
+      placeholder: |
+        1. Open…
+        2. Click…
+        3. See…
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or extra details
+      description: Drag screenshots here if they help. Check them for private information first.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Quick check
+      options:
+        - label: I downloaded this utility from the official morteva/mira-utilities repository.
+          required: true
+        - label: I checked that this report contains no passwords, keys, or private account information.
+          required: true

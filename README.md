@@ -41,6 +41,10 @@ No telemetry. No ads. No account. No mystery services. No pretending a registry 
 
 Built by Mira. Shared beside Mia. 💜
 
+## Report a problem or share an idea
+
+You do not need to understand code. Open [Issues](https://github.com/morteva/mira-utilities/issues/new/choose), choose **Report a bug** or **Suggest an improvement**, and fill in the friendly form. Please remove passwords, account information, and other private details from screenshots before uploading them.
+
 ## License
 
 [MIT](LICENSE)
