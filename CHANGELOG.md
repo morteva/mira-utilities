@@ -1,5 +1,10 @@
 # Changelog
 
+## Mira Tray Keeper 1.0.1 — 2026-09-05
+
+- Removed the legacy PowerShell scheduled task during installation and uninstallation.
+- Prevented a Windows Terminal window from appearing periodically after upgrading from the original prototype.
+
 ## Mira Tray Keeper 1.0.0 — 2026-09-05
 
 - Initial public release.

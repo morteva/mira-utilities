@@ -75,6 +75,7 @@ namespace MiraTrayKeeper
             if (!string.Equals(runningExe, InstalledExe, StringComparison.OrdinalIgnoreCase))
                 File.Copy(runningExe, InstalledExe, true);
 
+            RunHidden("schtasks.exe", "/Delete /F /TN \"Mira - Keep All Tray Icons Visible\"");
             RunHidden("schtasks.exe", "/Create /F /SC MINUTE /MO 1 /TN \"" + TaskName +
                 "\" /TR \"\\\"" + InstalledExe + "\\\" /apply\"");
             Apply();
@@ -83,6 +84,7 @@ namespace MiraTrayKeeper
         internal static void Uninstall()
         {
             RunHidden("schtasks.exe", "/Delete /F /TN \"" + TaskName + "\"");
+            RunHidden("schtasks.exe", "/Delete /F /TN \"Mira - Keep All Tray Icons Visible\"");
             using (RegistryKey explorer = Registry.CurrentUser.CreateSubKey(@"Software\Microsoft\Windows\CurrentVersion\Explorer"))
                 explorer.SetValue("EnableAutoTray", 1, RegistryValueKind.DWord);
         }
