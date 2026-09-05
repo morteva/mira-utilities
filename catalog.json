@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "collection": {
+    "name": "Mira Utilities",
+    "tagline": "Small fixes that actually work.",
+    "repository": "https://github.com/morteva/mira-utilities"
+  },
+  "utilities": [
+    {
+      "slug": "mira-tray-keeper",
+      "name": "Mira Tray Keeper",
+      "version": "1.0.0",
+      "platform": "Windows 11",
+      "architecture": "x64",
+      "summary": "Keeps every current and future notification-area icon visible.",
+      "downloadUrl": "https://github.com/morteva/mira-utilities/releases/download/tray-keeper-v1.0.0/Mira-Tray-Keeper.zip",
+      "sourceUrl": "https://github.com/morteva/mira-utilities/tree/main/MiraTrayKeeper",
+      "sha256": "B854737F35BD27DFDA65F269C06056510F65A54E9576C0D0EF3403C96D4985DA",
+      "adminRequired": false,
+      "telemetry": false,
+      "networkAccess": false,
+      "status": "stable"
+    }
+  ]
+}
