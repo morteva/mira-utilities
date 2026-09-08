@@ -15,16 +15,21 @@
       "summary": "Use multiple Discord accounts in one window with persistent session tabs and notification badges.",
       "downloadUrl": "https://github.com/morteva/mira-utilities/releases",
       "projectUrl": "https://github.com/morteva/mira-utilities/tree/main/MiraDiscordSwitcher",
+      "installerFile": "Mira-Discord-Switcher-Setup-1.0.0.exe",
+      "installerSizeBytes": 4103474,
+      "checksumFile": "releases/Mira-Discord-Switcher-Setup-1.0.0.exe.sha256",
       "sha256": "090AA25CFF6E7A336BD5F97E444F4F8F0872379E82D3823B5A9F944997CABB0A",
       "networkAccess": true,
       "installerSigned": false,
+      "closeBehavior": "X exits the application; minimize only minimizes the window.",
       "status": "stable",
       "capabilities": [
         "Multiple Discord sessions in one window",
         "Persistent per-session login state",
         "Tab-based switching",
         "Add, reload, rename, and remove session controls",
-        "Windows taskbar notification badges"
+        "Windows taskbar notification badges",
+        "Regular Discord functionality remains available inside each session"
       ]
     },
     {
