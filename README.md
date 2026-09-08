@@ -30,6 +30,8 @@ Each session remembers its own login state, and the Windows taskbar badge reflec
 
 Download `Mira-Discord-Switcher-Setup-1.0.0.exe` from the Releases area and run the installer.
 
+Installer size: **4,103,474 bytes** (about **3.91 MiB**).
+
 The current installer is unsigned, so Windows may show an unknown-publisher or SmartScreen warning.
 
 ### Verify the installer
@@ -37,6 +39,8 @@ The current installer is unsigned, so Windows may show an unknown-publisher or S
 SHA-256:
 
 `090AA25CFF6E7A336BD5F97E444F4F8F0872379E82D3823B5A9F944997CABB0A`
+
+A matching checksum file is included under [`releases/`](releases/), and the checksum above was verified against the supplied 1.0.0 installer build.
 
 Build notes for this release live in [`MiraDiscordSwitcher/`](MiraDiscordSwitcher/).
 
