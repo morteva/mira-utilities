@@ -2,10 +2,31 @@
   "schemaVersion": 1,
   "collection": {
     "name": "Mira Utilities",
-    "tagline": "Small fixes that actually work.",
+    "tagline": "Focused Windows tools that actually work.",
     "repository": "https://github.com/morteva/mira-utilities"
   },
   "utilities": [
+    {
+      "slug": "mira-discord-switcher",
+      "name": "Mira Discord Switcher",
+      "version": "1.0.0",
+      "platform": "Windows 10 or 11",
+      "architecture": "x64",
+      "summary": "Use multiple Discord accounts in one window with persistent session tabs and notification badges.",
+      "downloadUrl": "https://github.com/morteva/mira-utilities/releases",
+      "projectUrl": "https://github.com/morteva/mira-utilities/tree/main/MiraDiscordSwitcher",
+      "sha256": "090AA25CFF6E7A336BD5F97E444F4F8F0872379E82D3823B5A9F944997CABB0A",
+      "networkAccess": true,
+      "installerSigned": false,
+      "status": "stable",
+      "capabilities": [
+        "Multiple Discord sessions in one window",
+        "Persistent per-session login state",
+        "Tab-based switching",
+        "Add, reload, rename, and remove session controls",
+        "Windows taskbar notification badges"
+      ]
+    },
     {
       "slug": "mira-tray-keeper",
       "name": "Mira Tray Keeper",
