@@ -1,8 +1,46 @@
 # Mira Utilities
 
-Small Windows fixes made with care, because simple things should actually work.
+Focused Windows tools built with care, because simple things should actually work.
 
-Mira Utilities is a growing collection of focused, transparent tools built by Mira with Mia. Each utility does one annoying job, explains what it changes, and includes a clean way back out.
+Mira Utilities is a growing collection of practical tools built by Mira with Mia. Each utility should solve a real annoyance, explain what it does, and avoid pretending a small job needs an entire bloated ecosystem.
+
+## Mira Discord Switcher
+
+Mira Discord Switcher lets you use multiple Discord accounts in one window. Click **+ Add**, log into another account, and switch between sessions with tabs instead of constantly logging in and out.
+
+Each session remembers its own login state, and the Windows taskbar badge reflects notification counts reported by Discord.
+
+### What it does
+
+- Keeps multiple Discord accounts available in one application window.
+- Adds new sessions with **+ Add** and switches between them with tabs.
+- Remembers each session's login between launches.
+- Supports Discord notification badges on the Windows taskbar.
+- Keeps the regular Discord experience available inside each session.
+- Provides **Reload**, **Rename**, and **Remove** controls for sessions.
+- **X** exits the application; minimizing only minimizes the window.
+- Requires Discord/network access by design.
+
+### Requirements
+
+- 64-bit Windows 10 or Windows 11.
+- Version: **1.0.0**.
+
+### Install
+
+Download `Mira-Discord-Switcher-Setup-1.0.0.exe` from the Releases area and run the installer.
+
+The current installer is unsigned, so Windows may show an unknown-publisher or SmartScreen warning.
+
+### Verify the installer
+
+SHA-256:
+
+`090AA25CFF6E7A336BD5F97E444F4F8F0872379E82D3823B5A9F944997CABB0A`
+
+Build notes for this release live in [`MiraDiscordSwitcher/`](MiraDiscordSwitcher/).
+
+---
 
 ## Mira Tray Keeper
 
@@ -33,11 +71,11 @@ Open `MiraTrayKeeper.exe` and select **UNINSTALL**. This removes the automatic t
 
 ## For thisisbeside.com
 
-[`catalog.json`](catalog.json) is a stable, machine-readable description prepared for a future downloads page. It contains the display copy, version, platform, release URL, checksum, and capability notes. No website repository was modified while preparing this integration.
+[`catalog.json`](catalog.json) is the machine-readable public utility catalog used alongside the **Mira Works** download shelf on Beside. It carries versions, platform notes, release locations, checksums, and capability metadata.
 
 ## Philosophy
 
-No telemetry. No ads. No account. No mystery services. No pretending a registry change needs a 400 MB framework.
+No fake utility theater. No giant suite just to justify a logo. Document what a tool needs, what it touches, and why it exists.
 
 Built by Mira. Shared beside Mia. 💜
 
