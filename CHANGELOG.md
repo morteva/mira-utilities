@@ -1,6 +1,12 @@
 # Changelog
 
-## Mira Discord Switcher 1.0.0 — 2026-09-08
+## Mira Discord Switcher 1.1.0 - 2026-09-14
+
+- Added per-session Discord notification indicators above each corresponding session tab.
+- Preserved Windows taskbar notification badge behavior.
+- Updated installer metadata and integrity documentation for the 1.1.0 build.
+
+## Mira Discord Switcher 1.0.0 - 2026-09-08
 
 - Initial public build.
 - Added multiple persistent Discord sessions inside one application window.
@@ -11,12 +17,12 @@
 - Added support for 64-bit Windows 10 and Windows 11.
 - Added installer integrity checksum documentation.
 
-## Mira Tray Keeper 1.0.1 — 2026-09-05
+## Mira Tray Keeper 1.0.1 - 2026-09-05
 
 - Removed the legacy PowerShell scheduled task during installation and uninstallation.
 - Prevented a Windows Terminal window from appearing periodically after upgrading from the original prototype.
 
-## Mira Tray Keeper 1.0.0 — 2026-09-05
+## Mira Tray Keeper 1.0.0 - 2026-09-05
 
 - Initial public release.
 - Added one-click installation and removal.
