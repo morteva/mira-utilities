@@ -27,6 +27,8 @@ Filename:
 
 `Mira-Discord-Switcher-Setup-1.1.0.exe`
 
+The installer is distributed through **Mira Works on thisisbeside.com** rather than as a GitHub Release asset.
+
 The 1.1.0 installer is currently unsigned. Windows may therefore display an unknown-publisher or SmartScreen warning.
 
 ## Integrity
@@ -47,4 +49,4 @@ When attaching screenshots, remove passwords, account details, tokens, private s
 
 ## Release state
 
-The public documentation, checksum, and Mira Utilities catalog entry are updated for 1.1.0. The binary installer is distributed through the repository's Releases area.
+The public documentation, checksum, and Mira Utilities catalog entry are updated for 1.1.0. The binary installer itself is distributed through Mira Works on thisisbeside.com.
