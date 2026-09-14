@@ -8,13 +8,14 @@ Mira Utilities is a growing collection of practical tools built by Mira with Mia
 
 Mira Discord Switcher lets you use multiple Discord accounts in one window. Click **+ Add**, log into another account, and switch between sessions with tabs instead of constantly logging in and out.
 
-Each session remembers its own login state, and the Windows taskbar badge reflects notification counts reported by Discord.
+Each session remembers its own login state. Discord notification activity is visible both through the Windows taskbar badge and directly above the corresponding session tab.
 
 ### What it does
 
 - Keeps multiple Discord accounts available in one application window.
 - Adds new sessions with **+ Add** and switches between them with tabs.
 - Remembers each session's login between launches.
+- Shows each Discord session's own notification indicator above its corresponding tab.
 - Supports Discord notification badges on the Windows taskbar.
 - Keeps the regular Discord experience available inside each session.
 - Provides **Reload**, **Rename**, and **Remove** controls for sessions.
@@ -24,13 +25,13 @@ Each session remembers its own login state, and the Windows taskbar badge reflec
 ### Requirements
 
 - 64-bit Windows 10 or Windows 11.
-- Version: **1.0.0**.
+- Version: **1.1.0**.
 
 ### Install
 
-Download `Mira-Discord-Switcher-Setup-1.0.0.exe` from the Releases area and run the installer.
+Download `Mira-Discord-Switcher-Setup-1.1.0.exe` from the Releases area and run the installer.
 
-Installer size: **4,103,474 bytes** (about **3.91 MiB**).
+Installer size: **4,104,768 bytes** (about **3.91 MiB**).
 
 The current installer is unsigned, so Windows may show an unknown-publisher or SmartScreen warning.
 
@@ -38,9 +39,9 @@ The current installer is unsigned, so Windows may show an unknown-publisher or S
 
 SHA-256:
 
-`090AA25CFF6E7A336BD5F97E444F4F8F0872379E82D3823B5A9F944997CABB0A`
+`B12474FDAFF6CAEFEC6B719F52C4E54F8D7074C7CA2C7FF9E38F1E500435AE08`
 
-A matching checksum file is included under [`releases/`](releases/), and the checksum above was verified against the supplied 1.0.0 installer build.
+A matching checksum file is included under [`releases/`](releases/), and the checksum above was verified against the supplied 1.1.0 installer build.
 
 Build notes for this release live in [`MiraDiscordSwitcher/`](MiraDiscordSwitcher/).
 
@@ -48,7 +49,7 @@ Build notes for this release live in [`MiraDiscordSwitcher/`](MiraDiscordSwitche
 
 ## Mira Tray Keeper
 
-Windows 11 hides notification-area icons inside the overflow menu—even after you painstakingly turn them all back on. Mira Tray Keeper makes every current icon visible and quietly promotes new icons as applications add them.
+Windows 11 hides notification-area icons inside the overflow menu, even after you painstakingly turn them all back on. Mira Tray Keeper makes every current icon visible and quietly promotes new icons as applications add them.
 
 ### What it does
 
