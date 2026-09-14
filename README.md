@@ -29,7 +29,7 @@ Each session remembers its own login state. Discord notification activity is vis
 
 ### Install
 
-Download `Mira-Discord-Switcher-Setup-1.1.0.exe` from the Releases area and run the installer.
+Download `Mira-Discord-Switcher-Setup-1.1.0.exe` from **Mira Works on thisisbeside.com** and run the installer.
 
 Installer size: **4,104,768 bytes** (about **3.91 MiB**).
 
@@ -76,7 +76,7 @@ Open `MiraTrayKeeper.exe` and select **UNINSTALL**. This removes the automatic t
 
 ## For thisisbeside.com
 
-[`catalog.json`](catalog.json) is the machine-readable public utility catalog used alongside the **Mira Works** download shelf on Beside. It carries versions, platform notes, release locations, checksums, and capability metadata.
+[`catalog.json`](catalog.json) is the machine-readable public utility catalog used alongside the **Mira Works** download shelf on Beside. It carries versions, platform notes, distribution locations, checksums, and capability metadata.
 
 ## Philosophy
 
