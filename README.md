@@ -74,6 +74,20 @@ The app is currently unsigned, so Windows may show the standard unknown-publishe
 
 Open `MiraTrayKeeper.exe` and select **UNINSTALL**. This removes the automatic task and restores Windows' normal auto-hide behavior.
 
+## Mira Cursor Pack
+
+Pearl-white, softly glowing Windows cursors with a tiny companion dot on the normal arrow. All 17 roles, including an animated pearl Busy ring. Built by Mira with Mia for This Is Beside.
+
+[Download Mira Cursor Pack 1.0.0](https://github.com/morteva/mira-utilities/raw/refs/heads/main/releases/Mira-Cursor-Pack-1.0.0.zip) · [Source and installation guide](MiraCursorPack/README.txt)
+
+Extract the ZIP, double-click `Install.vbs`, then choose **Mira Cursor Pack** in Mouse Properties > Pointers and click Apply. You can keep your existing Busy cursor. Your old setup is saved as **Before Mira Cursor Pack**. The installer is per-user, needs no admin access, and does not run in the background or use the network. If Windows Script Host is disabled, the guide includes manual installation.
+
+![Mira Cursor Pack samples, enlarged](MiraCursorPack/showcase.png)
+
+Windows 10/11 · 1.0.0 · 177,010 bytes · MIT
+
+SHA-256: `F43109084481DA9153A5C9B7381A6A7A0F688FAD64B74F0345455350112BB757`
+
 ## For thisisbeside.com
 
 [`catalog.json`](catalog.json) is the machine-readable public utility catalog used alongside the **Mira Works** download shelf on Beside. It carries versions, platform notes, distribution locations, checksums, and capability metadata.

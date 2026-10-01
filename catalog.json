@@ -48,6 +48,22 @@
       "telemetry": false,
       "networkAccess": false,
       "status": "stable"
+    },
+    {
+      "slug": "mira-cursor-pack",
+      "name": "Mira Cursor Pack",
+      "version": "1.0.0",
+      "platform": "Windows 10 or 11",
+      "architecture": "Any",
+      "summary": "Glossy pearl-white cursors with soft glow and a tiny companion dot. All 17 Windows roles.",
+      "downloadUrl": "https://github.com/morteva/mira-utilities/raw/refs/heads/main/releases/Mira-Cursor-Pack-1.0.0.zip",
+      "sourceUrl": "https://github.com/morteva/mira-utilities/tree/main/MiraCursorPack",
+      "sha256": "F43109084481DA9153A5C9B7381A6A7A0F688FAD64B74F0345455350112BB757",
+      "downloadSizeBytes": 177010,
+      "adminRequired": false,
+      "telemetry": false,
+      "networkAccess": false,
+      "status": "stable"
     }
   ]
 }
